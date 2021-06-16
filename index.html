@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MiSintomas</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <label class="logo">MiSintomas</label>
+           
+                <ul>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Informarcion</a></li>
+                </ul>
+          
+        </nav>
+    </header>
+
+
+    
+<div class="main">
+    <div class="ilustration">
+        <img src="imagenes/banner_sintomas.jpg" alt="">
+        <img src="imagenes/sintomas.png" alt="">
+       
+    </div>
+
+    <div class="formulario_body">
+        <div class="contenedor-formulario">
+            <div class="wrap">
+                <form action="" class="formulario" name="formulario_registro" method="get">
+                    <div>
+                        <h2>FORMULARIO DE DIAGNOSTICO COVID-19</h2>
+                        <div class="input-group">
+                            <input type="text" id="nombre" name="nombre">
+                            <label class="label" for="nombre">Nombre:</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" id="apellido" name="apellido">
+                            <label class="label" for="nombre">Apellido:</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="number" id="cedula" name="correo" placeholder="cedula" >
+                            <label class="label" for="cedula"></label>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" id="Direccion" name="Direccion">
+                            <label class="label" for="Direccion">Direccion:</label>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="correo" name="correo">
+                            <label class="label" for="correo">Correo:</label>
+                        </div>
+                        <div class="input-group radio">
+                            <h2>Marca cuales son tus sintomas</h2>
+                            <input type="checkbox" id="fruit1" name="fruit-1" value="Apple">
+                            <label for="fruit1">Fiebre o escalofríos</label>
+                            <input type="checkbox" id="fruit2" name="fruit-2" value="Banana">
+                            <label for="fruit2">Tos</label>
+                            <input type="checkbox" id="fruit3" name="fruit-3" value="Strawberry">
+                            <label for="fruit3">Dificultad para respirar (sentir que le falta el aire)</label>
+                            <input type="checkbox" id="fruit4" name="fruit-4" value="Strawberry">
+                            <label for="fruit4">Fatiga</label>
+                            <input type="checkbox" id="fruit5" name="fruit-5" value="Strawberry">
+                            <label for="fruit5">Dolores musculares y corporales</label>
+                            <input type="checkbox" id="fruit6" name="fruit-6" value="Strawberry">
+                            <label for="fruit6">Dolor de cabeza</label>
+                            <input type="checkbox" id="fruit7" name="fruit-7" value="Strawberry">
+                            <label for="fruit7">Pérdida reciente del olfato o el gusto</label>
+                            <input type="checkbox" id="fruit8" name="fruit-8" value="Strawberry">
+                            <label for="fruit8">Dolor de garganta</label>
+                            <input type="checkbox" id="fruit9" name="fruit-9" value="Strawberry">
+                            <label for="fruit9">Congestión o moqueo</label>
+                            <input type="checkbox" id="fruit10" name="fruit-10" value="Strawberry">
+                            <label for="fruit10">Náuseas o vómitos</label>
+                            <input type="checkbox" id="fruit11" name="fruit-11" value="Strawberry">
+                            <label for="fruit11">Diarrea</label>
+                            
+                        </div>
+                        <div class="input-group checkbox">
+                           
+                        </div>
+                            
+                        <input type="submit" id="btn-submit" value="Enviar"> <input type="reset" id="btn-submit_1" value="Limpiar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/formulario.js"></script>
+</body>
+</html>
